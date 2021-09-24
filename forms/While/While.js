@@ -1,5 +1,5 @@
 
-/*let num = prompt(`Enter the number of iterations you want!`)
+let num = prompt(`Enter the number of iterations you want!`)
 let i = 1
 
 while (i < num){
@@ -9,4 +9,3 @@ while (i < num){
   
   
 console.log(`This is loop iteration ${i}`)
-*/

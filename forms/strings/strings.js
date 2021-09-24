@@ -1,3 +1,26 @@
-let num = prompt(`Number added ny 10`)
-cool = num + 10
-console.log(${cool})
+let quoteString = 'Failure is simply the opportunity to begin again this time more intelligently.'
+
+quoteString = quoteString.toUpperCase()
+
+console.log(`Upper case string is: ${quoteString}.`)
+
+
+
+let authorString = "- Henry Ford"
+
+let completeString = quoteString.concat(authorString)
+
+console.log(`Concatenated string is: ${completeString}.`)
+
+
+
+let found = completeString.includes('Henry')
+
+if (found = "true")
+
+  console.log("Henry was in completeString.")
+
+else
+
+  console.log("Henry was NOT in completeString.")
+

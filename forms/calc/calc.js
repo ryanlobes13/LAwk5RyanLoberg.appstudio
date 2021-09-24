@@ -1,6 +1,20 @@
-/*let num1 = prompt(`Enter first number`)
-let num2 = propmt(`Enter second number`)
-let calculate = sum(num1,num2)
+function calculate(n1,n2) {
 
-console.log(The sum of ${num2} and ${num1} is ${calculate}) 
-*/
+   let answerFunc = n1+n2
+
+   return answerFunc
+
+}
+
+
+
+let number1 = Number(prompt("Please pick a whole number."))
+
+let number2 = Number(prompt("Please pick a whole number."))
+
+
+
+let summedNumbers = calculate(number1, number2)
+
+console.log(`The sum of ${number1} and ${number2} is ${summedNumbers}.`)
+
